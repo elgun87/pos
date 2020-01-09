@@ -1,0 +1,26 @@
+.container {
+    margin: 200px;
+}
+
+.fixed {
+    position: fixed;
+    height: 200px;
+    width: 200px;
+    background: lightsteelblue;
+    top: 0;
+    left: 0;
+}
+.relative {
+    height: 200px;
+    width: 500px;
+    background: mediumaquamarine;
+    position: relative;
+}
+.absolute {
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    background: mediumorchid;
+    bottom: 0;
+    right: -40px;
+}
